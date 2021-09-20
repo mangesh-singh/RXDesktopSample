@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="11.71s"
+		durationms="11706"
+		type="root"
+		rid="cbbbedd2df785d7"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="mangesh"
+		rxversion="10.1.0.0"
+		host="MADMAX"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-IN"
+		screenresolution="3840x1080"
+		timestamp="17-08-2021 08:29:34"
+		timestampiso="2021-08-17T02:59:34"
+		endtime="17-08-2021 08:29:45"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="StartAUT">
+		<detail>
+			StartAUT
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.285"
+			timeRelativeToTestModuleStartTime="00:05.285"
+			timeWallClock="08:29:39"
+			time="00:05.285"
+			level="Info"
+			category="Application">
+			<message>
+				Run application './RxDemoApp.exe' in normal mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="d:\TECHEXTENSOR\solutions\RxSampleDataDrivenTesting\RxDatabase\Application functions\StartAUT.cs"
+				codeline="82"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.325"
+			timeRelativeToTestModuleStartTime="00:05.325"
+			timeWallClock="08:29:39"
+			time="00:05.325"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'DemoApplication.Database' at 27;7.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='RxMainFrame']/?/?/tabpage[@accessiblename='Test database']"
+				itempath="?/?/tabpage[@accessiblename='Test database']"
+				fullname="RxDatabaseRepository.DemoApplication.Database"
+				id="34b9f228153b44b4ae341e2747592b0f"
+				timeout="60000"
+				codefile="d:\TECHEXTENSOR\solutions\RxSampleDataDrivenTesting\RxDatabase\Application functions\StartAUT.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

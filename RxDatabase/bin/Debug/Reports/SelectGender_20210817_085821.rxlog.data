@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="11.16s"
+		durationms="11157"
+		type="root"
+		rid="6982aa280ba8516"
+		totalerrorcount="0"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="mangesh"
+		rxversion="10.1.0.0"
+		host="MADMAX"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-IN"
+		screenresolution="3840x1080"
+		timestamp="17-08-2021 08:58:25"
+		timestampiso="2021-08-17T03:28:25"
+		endtime="17-08-2021 08:58:36"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="SelectGender">
+		<detail>
+			SelectGender
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.578"
+			timeRelativeToTestModuleStartTime="00:05.578"
+			timeWallClock="08:58:30"
+			time="00:05.578"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>selGender
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.597"
+			timeRelativeToTestModuleStartTime="00:05.597"
+			timeWallClock="08:58:30"
+			time="00:05.597"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'DemoApplication.DatabaseTab.SelectMale' at 6;8.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='RxMainFrame']/?/?/tabpage[@controlname='RxTabStandard']/?/?/radiobutton[@controlname='rdbMale']"
+				itempath="?/?/radiobutton[@controlname=$selGender]"
+				fullname="RxDatabaseRepository.DemoApplication.DatabaseTab.SelectMale"
+				id="a47a714c11a34925b1810c2445fd1e45"
+				timeout="90000"
+				codefile="d:\TECHEXTENSOR\solutions\RxSampleDataDrivenTesting\RxDatabase\Database functions\SelectGender.cs"
+				codeline="92"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

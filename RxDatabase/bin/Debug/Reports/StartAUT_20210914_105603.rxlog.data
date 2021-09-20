@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="10.78s"
+		durationms="10777"
+		type="root"
+		rid="239e5e24b9c6f7ac"
+		totalerrorcount="0"
+		totalwarningcount="2"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="mangesh"
+		rxversion="9.3.2.0"
+		host="MADMAX"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-IN"
+		screenresolution="3840x1080"
+		timestamp="14-09-2021 10:56:07"
+		timestampiso="2021-09-14T05:26:07"
+		endtime="14-09-2021 10:56:18"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="StartAUT">
+		<detail>
+			StartAUT
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.447"
+			timeRelativeToTestModuleStartTime="00:04.447"
+			timeWallClock="10:56:12"
+			time="00:04.447"
+			level="Info"
+			category="Application">
+			<message>
+				Run application './RxDemoApp.exe' in normal mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="D:\TECHEXTENSOR\solutions\RxSampleDataDrivenTesting\RxDatabase\Application functions\StartAUT.cs"
+				codeline="82"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.490"
+			timeRelativeToTestModuleStartTime="00:04.490"
+			timeWallClock="10:56:12"
+			time="00:04.490"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'DemoApplication.Database' at 27;7.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='RxMainFrame']/?/?/tabpage[@accessiblename='Test database']"
+				itempath="?/?/tabpage[@accessiblename='Test database']"
+				fullname="RxDatabaseRepository.DemoApplication.Database"
+				id="34b9f228153b44b4ae341e2747592b0f"
+				timeout="60000"
+				codefile="D:\TECHEXTENSOR\solutions\RxSampleDataDrivenTesting\RxDatabase\Application functions\StartAUT.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.230"
+			timeRelativeToTestModuleStartTime="00:08.230"
+			timeWallClock="10:56:15"
+			time="00:08.230"
+			level="Warn"
+			category="Qt">
+			<message>
+				Ranorex can’t identify UI elements in your Qt AUT because it couldn’t instrument it automatically. Start Ranorex Studio and the AUT with the same privileges, preferably as an administrator, and ensure your Qt version is supported.<br/>Process: 'qemu-system-x86_64' (pid 8180)<br/>https://www.ranorex.com/help/v9.3/interfaces-connectivity/technology-instrumentation/general-troubleshooting/<br/>(This message is only shown once per report.)
+			</message>
+			<metainfo
+				limitationName="QtWindow"
+				showInProgressDialog="False"
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.173"
+			timeRelativeToTestModuleStartTime="00:10.173"
+			timeWallClock="10:56:17"
+			time="00:10.173"
+			level="Warn"
+			category="Win32">
+			<message>
+				An EnsureVisible action couldn't be executed because Windows did not allow bringing the window containing the targeted UI element into the foreground. This is likely caused by insufficient privileges. Restart Ranorex Studio as administrator or use the Ranorex.UiaLauncher to start the test executable.<br/>https://www.ranorex.com/help/v9.3/interfaces-connectivity/technology-instrumentation/general-troubleshooting/
+			</message>
+			<metainfo
+				limitationName="EnsureVisible"
+				showInProgressDialog="False"
+				codefile="D:\TECHEXTENSOR\solutions\RxSampleDataDrivenTesting\RxDatabase\Application functions\StartAUT.cs"
+				codeline="87"
+				loglvl="Warn">
+			</metainfo>
+		</item>
+	</activity>
+</report>
