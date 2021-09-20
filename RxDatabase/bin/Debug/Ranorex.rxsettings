@@ -1,5 +1,5 @@
 ﻿<configuration
-rxversion="9.3">
+rxversion="10.1">
 	<adapter.defaultsearchtimeout>
 		10000ms
 	</adapter.defaultsearchtimeout>
@@ -405,22 +405,7 @@ rxversion="9.3">
 	<Endpoints.Data>
 		&lt;![CDATA[{
   &quot;mobile.ios.remote&quot;: [],
-  &quot;mobile.android.remote&quot;: [
-    {
-      &quot;Id&quot;: &quot;03d0106e-3388-46e5-8bd1-5c88ac252f01&quot;,
-      &quot;ControlFlags&quot;: 0,
-      &quot;CoreData&quot;: {},
-      &quot;PluginData&quot;: {
-        &quot;Platform&quot;: &quot;Android&quot;,
-        &quot;ConnectionType&quot;: &quot;USB&quot;
-      },
-      &quot;MetaData&quot;: {},
-      &quot;Description&quot;: &quot;&quot;,
-      &quot;DisplayName&quot;: &quot;USB-00c18ccf5e6b3703&quot;,
-      &quot;Url&quot;: &quot;00c18ccf5e6b3703&quot;,
-      &quot;Tags&quot;: []
-    }
-  ],
+  &quot;mobile.android.remote&quot;: [],
   &quot;webdriver.remote&quot;: []
 }]]&gt;
 	</Endpoints.Data>
@@ -634,6 +619,10 @@ rxversion="9.3">
 	<plugins.qt.quickfiltered>
 		True
 	</plugins.qt.quickfiltered>
+	<plugin.mobile.android.instrumentation>
+	</plugin.mobile.android.instrumentation>
+	<plugin.mobile.ios.instrumentation>
+	</plugin.mobile.ios.instrumentation>
 	<plugin.mobile.android.ConnectTimout>
 		10000ms
 	</plugin.mobile.android.ConnectTimout>
@@ -698,8 +687,4 @@ rxversion="9.3">
 	<plugin.webdriver.screenshotUpdate>
 		False
 	</plugin.webdriver.screenshotUpdate>
-	<plugin.mobile.android.instrumentation>
-	</plugin.mobile.android.instrumentation>
-	<plugin.mobile.ios.instrumentation>
-	</plugin.mobile.ios.instrumentation>
 </configuration>

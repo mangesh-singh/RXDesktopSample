@@ -6,6 +6,7 @@
   <Array name="files">
     <Element value="RxDatabase.rxtst" />
     <Element value="testName.rxrec" />
+    <Element value="Database functions\ValidateEntries.rxrec" />
   </Array>
   <Properties name="projectSavedData">
     <Properties name="customTool">

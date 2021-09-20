@@ -10,8 +10,11 @@ rxversion="8.0">
 			type="Recording">
 			</testmodule>
 			<testcase
+			datarangeactive="True"
 			datasource="ExcelDATA"
 			id="19803715-0124-454f-a8ea-4fe9f45f3c0f"
+			maxrange="2"
+			minrange="0"
 			name="Data-driven_DB_Test">
 			</testcase>
 			<testcase
@@ -115,16 +118,21 @@ rxversion="8.0">
 			VideoFps="15"
 			VideoRecordingMode="Off"
 			VideoSource="Auto"
+			createsinglereportpdfchecked="False"
 			enabletracingscreenshots="True"
 			id="db8e13f7-37a8-4a6e-9aaf-9d6cc534fb9f"
+			includeimageschecked="False"
+			includerecordingschecked="False"
 			junitreport="False"
 			name="RxDatabase"
+			overwritefilechecked="False"
 			reportcompress="False"
 			reportdirectoryname=""
 			reportenabled="True"
 			reportfilename="%S_%Y%M%D_%T.rxlog"
 			reporttemplatefolder=""
-			reportwriteinterval="30000ms">
+			reportwriteinterval="30000ms"
+			singlereportpdfdirectory="SingleReportPDF">
 			</testsuite>
 			<testmodule
 			id="fa08fcda-c7b7-494f-9d75-ce72cc847010"
@@ -235,9 +243,18 @@ rxversion="8.0">
 		</DataSource>
 	</datasources>
 	<testconfigurations
-	default="TestRun">
+	default="TestRun_A">
 		<testconfiguration
-		name="TestRun">
+		name="TestRun_A">
+			<testcontainer
+			id="19803715-0124-454f-a8ea-4fe9f45f3c0f">
+			</testcontainer>
+			<testcontainer
+			id="212c184f-6f1c-4a06-b2e2-451613c7037a">
+			</testcontainer>
+		</testconfiguration>
+		<testconfiguration
+		name="TestRun_B">
 			<testcontainer
 			id="19803715-0124-454f-a8ea-4fe9f45f3c0f">
 			</testcontainer>
